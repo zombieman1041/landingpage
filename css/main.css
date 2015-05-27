@@ -16,6 +16,64 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+.color:hover {
+	background-color: white;
+	border-radius: 5px;
+}
 html{
 	
+}
+
+.button {
+   transition:all .25s ease-in-out;
+   -moz-transition:all .25s ease-in-out;
+   -webkit-transition:all .25s ease-in-out;
+  
+  float:left;
+  height:30px;
+  width:30px;
+  margin-left:15px;
+  opacity:.5;
+}
+
+.button:hover {
+   transition:all .25s ease-in-out;
+   -moz-transition:all .25s ease-in-out;
+   -webkit-transition:all .25s ease-in-out;
+  opacity:1;
+  
+ /* margin-top:-10px;*/
+  -webkit-box-shadow:  0px 3px 10px 2px rgba(0, 0, 0, .5);
+  box-shadow:  0px 3px 6px 1px rgba(0, 0, 0, .5);
+}
+
+.button img {
+  margin-top:-10px;
+  margin-left:-10px;
+}
+
+/* instagram image fix */
+#img_2 { 
+  margin:0;
+}
+
+.test{
+	background-color: red;
+	background-image: url("fabric.jpg");
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.test2{
+	background-image: url("fabric.jpg");
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+	color: white;
+	font-family: 'Merriweather', serif;
+}
+.imgfit{
+	height: 50%;
+	width: 100%;
 }
