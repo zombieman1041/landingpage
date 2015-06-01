@@ -73,10 +73,24 @@ html{
 	color: white;
 	font-family: 'Merriweather', serif;
 }
+.test3{
+	background-color: green;
+	padding-top: 1px;
+	text-align: center; 
+}
 .imgfit{
 	height: 50%;
 	width: 100%;
 }
 .text{
 	color: black;
+}
+.center{
+	text-align: center;
+	color: white;
+}
+@media screen and (max-width: 959px){
+.container {
+	width:100%;
+	margin:0px auto;
 }
