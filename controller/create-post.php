@@ -24,8 +24,11 @@
     // to see we are successful in inserting information into the database
     if($query){
         // if success it output with a title
-        echo "<p>Successfully inserting post: $first</p>";
-        echo "Posted on: " . $date->format('M/D/Y') . " at " . $time->format('g:i');
+        // echo "<p>Successfully inserting post: $first</p>";
+        // echo "Posted on: " . $date->format('M/D/Y') . " at " . $time->format('g:i');
+        echo "Thank you for submiting!";
+        header("Location: " . $path . "contact.php");
+
     }
     else {
         // if not successful display an error

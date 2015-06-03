@@ -23,7 +23,7 @@
             		<li role="presentation" class="active"><a href="skill.html">Skills</a></li>
             		<li role="presentation" class="active"><a href="project.html">Projects</a></li>
             		<li role="presentation" class="active"><a href="resume.html">Resume</a></li>
-            		<li role="presentation" class="active"><a href="contact.html">Contact</a></li>
+            		<li role="presentation" class="active"><a href="contact.php">Contact</a></li>
 					<a href="https://www.facebook.com">
   						<div class="button">
     						<img src="http://www.bryce-snyder.com/hosted/color/Facebook.png" height="50" width="50" alt="" />
@@ -50,13 +50,14 @@
 		<div class="row">
 			<div class="test2 center">
 <!-- start of form -->
-			<?php  
-				require_once(__DIR__ . "/../model/config.php");
-			?>
+			
 <h1>Contact Information</h1>
 
 <!-- form takes in information and send it to the table -->
-<form method="post" action='<?php echo $path . "controller/create-post.php"; ?>'>
+<?php  
+    require_once(__DIR__ . "/model/config.php");
+?>
+<form class="text" method="post" action="<?php echo $path . '/controller/create-post.php'; ?>">
     <div>
         <!-- label display in front of the text box -->
         <label for="first">First Name: </label>
